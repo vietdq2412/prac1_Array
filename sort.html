@@ -20,7 +20,7 @@
     <p id="result"></p>
     <script>
         let arr = Array();
-        let x;
+        let x = arr.length;
 
         let getInput = document.getElementById('input'),
             getp = document.getElementById('p');
@@ -35,7 +35,6 @@
         });
         //add an element to arr[]
         function addElement() {
-            x = 0;
             let add = getInput.value;
             if (add != "") {
                 arr[x] = add;
